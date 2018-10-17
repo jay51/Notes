@@ -1,0 +1,34 @@
+
+
+docker pull image // to download images
+
+docker run -it  --publish 80:80 // docker run will start the container and -it flage will ssh into 
+intractive mod and --publish will expose spcified port to your local machine
+
+docker ps // shows running containers 
+docker ps -a // show all containers
+docker images // show images
+
+docker rm containerID// to remove containers
+docker image rm imageID// to remove images
+
+
+docker container run -d -p 80:80 --name myngxcontainer nginx// will run nginx image and -d for deattach to run in background 
+and -p for publish and the port and --name to give you container a name and then the image to run
+
+docker attach containerId or name// to attache back to a container runing in background
+
+docker run -d -p 3306:3306 --name mysql --env MYSQL_ROOT_PASSWORD=12345 mysql// this is the same as the container above but
+in here we'r runing mysql and --env is to set any enviermintal variables
+
+docker start// will start you container 
+docker exec -it container bash// will start the container and put in it
+
+docker ....... -v file_on_you_sys:file_on_docker_container// add -v to bind mount a workspace on you local machine with one on dacker container
+
+Dockerfile: is a file that docker will read and create an image with all specified params out of the Dockerfile.
+you can build an images out a DockerFile by runing docker build path/to/Dockerfile
+
+docker-compose: takes images (normally 2 images) and run these images togather as one
+
+docker system prune // will remove <none> dangling images and some other cleaning
