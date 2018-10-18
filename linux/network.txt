@@ -1,0 +1,29 @@
+9/20/18
+
+HTTP: An applecation protocol that governs the way a web server and a web client communecate
+
+TCP: transport protocol that manges the indivdual conversations
+
+IP: encapsulates the TCP segments into packets, assigns addresses.
+
+Protocol suite: a set of protocols that work together to provide network communications
+
+TCP/IP: protocol suite is an open standard, the protocols are freely available and any vendor is able to implement these protocols on their hardware or in their software.
+
+Encapsulations Procedure:
+1. the webserver prepares the hypertext(html)
+the http application layer sends the data to the transport layer.
+2.the transport layer breaks the data intp segments and identifies each.
+3.next the IP source and destination addresses are added, creating an IP packet
+4. the Ethernat is then added to create the frame
+5. when receiving the data link frames from the web server, the client will removes each protocol header in the oppeste order.
+
+OSI Model:
+7.Application
+6.Presntation
+5.Session
+4.Transport
+3.Network
+2.Data Link
+1.Physical
+

@@ -1,0 +1,35 @@
+9/27/18
+chapter5: Ethernet
+
+
+Ethernet operates in the data-link layer and physical layer.
+
+LLc : handles the communication between the upper layers and the lower layers.
+
+MAC:
+-Data encapsulation
+-Media access control
+
+*Frames less thean 64 bytes ....
+*last 3 byts are uniqe to each MAC addr
+*when a device is forwading a message to an Ethernet network, it attaches aheader info to the frame
+*the header containe the source and destination MAC addr
+
+Memory Buffering Method:
+-posr-based memory
+-shared memory
+
+*There are 2 primary addresses assigned to a device on an Ethernet LAN
+-Physical addrs MAC
+-Logical addrs IP
+*when the destination IP addrs is on a remote network, the destination MaC addrs will be the address of the host's default gateway.
+*To determine the destination MAC addrs, the device uses ARP.
+
+ARP:
+Rus on a switch
+Resolving IPv4 addrs to MAC addrs.
+Maintainiing a table of mappings.
+ARP request message includes => Target IPv4 addrs and MAC addrs
+
+
+

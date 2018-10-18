@@ -1,0 +1,47 @@
+chapter6: Network Layer
+
+*IP addrs and Router
+*Router will route to spearte networks 
+*switchies forward trafic inside network.
+
+Network Layer:
+-Assigning Ip addrs
+-Encapsulation 
+-Routeing to other networks
+
+Network Layer protocol:
+-IP4
+-IP6
+
+
+*IP is connectionless protocol and considered ureliable, means doesn't have the capablite to reacover...
+*IP operates independently from the media that  carries the data at lower layers.
+*The osi data link layer  takes care of sending the data.
+*when ssh into a network, you get the ISP IP and ISP will route you inside the network.
+*To publish a server you will need a static IP ,(all local networks have dynamic IP)(ISP have static IP )
+
+Loopback: sending back packets to yourself 127.0....
+
+*3 things you need to configer network IP, Subnet, Getway
+
+*when sending request, switchies will first look inside local network in routing table for IP address. If switchie and Router can't find it, it will forward it to next switch/Router or Getway
+
+COMMANDS:
+-netStat -r (show routing table)
+-Router
+  -show ip route (show all interfaces on that router)
+  -show version (os info)
+
+*on a Cisco ISO Router, use "show ip route" to display the router's IPv4 routing table.
+
+Memory types of router:
+-RAM
+-ROM
+-ANVRAM (load Configs)
+-FLASH (load OS)
+
+*Console and oax are the port to access console on router
+
+
+
+
