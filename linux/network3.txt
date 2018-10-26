@@ -1,0 +1,21 @@
+18/10/18
+Binary conversion
+
+192.168.10.70
+11000000.10101000.00001010 .01000110
+
+subnet mask: Identify the host and network portion, to figerout if an ip address is on same network or external.
+
+subnet classes:
+255.255.255.0 => C 
+255.255.0.0 => B 
+255.0.0.0 => A 
+
+ip/8 prefix is the subnetmask
+Loopback/127.0.0.0: local address none routable for testing.
+Link-local address: used by windows os to communicate with the DHCP when it first boot up.
+
+research CIDR classfull addresses:`:
+
+
+

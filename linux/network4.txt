@@ -1,0 +1,28 @@
+10/25/18
+
+IPV6
+
+*Switches Broadcasts to locat devices on Lan
+*Large Broadcasting affect the network negativly therefor we have subneting
+
+Subnetting:
+1. Reduces overall network traffic and improves network performance 
+2. Enables an adminstrator to implement security polices
+
+IPV6
+-has a larger 128-bit address space
+-solves limitations with IPV4
+
+Dual stack: Devices rout both IpV4 and IPV6 protocol
+
+3 Types of IPV6:
+-Unicast: single source IPV6
+-Multicast
+-Anycast
+
+Global Unicast: Globally unique, internet routable addresses
+Link-local
+
+*IPV6 uses NDP insted of ARP
+*Loopback on IPV6 is ::1
+
