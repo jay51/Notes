@@ -7,4 +7,14 @@ run "bg" to make it run in the background and to bring it back to the forground 
 nohup: no hangup to make your script run in the background even after you exit your shell, run "nohup command-or-script &"
 
 ssh: To ssh into a server that server got have openssh installed. And then from your clinet machine type "ssh username@ipaddress".
-You can login through ssh-keys by genrating ssh-keys "ssh-keygen" and then you have to copy the public key to the server machine to .ssh/authintication_keys through "ssh-copy-id username@ipaddress". after you can disable root login and password authintication in /etc/ssh/sshd_config
+You can login through ssh-keys by genrating ssh-keys "ssh-keygen" and then you have to copy the public key to the server machine to 
+.ssh/authintication_keys through "ssh-copy-id username@ipaddress". after you can disable root login and password authintication in /etc/ssh/sshd_config
+
+
+Note: Standerd output is usually the terminal. use > to redirect it to a file or use >> to do the same but append insted of overwriting.
+Use 2> to redirect standerd Error to a file and Use < to redirect Sinput to some output.
+
+Piping: Take one program output and give it another program input Using the simple | 
+
+Note: You can use the logical && operator to run 2 programes if the first prog is true, exp: prog && prog2
+
