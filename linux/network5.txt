@@ -1,0 +1,18 @@
+Transport layer
+
+*Responsible for establishing a temporary communication sessionbetween two appleications and delivering data between them.
+*Link applecation layer and lower layers
+
+Tcp/ip provides two transport layer protocols:
+-Tcp
+1. Numbering and tracking data segments
+2. Acknoledgment
+
+-Udp
+1. Best effort delivery
+2. No acknowledgment
+3. Similar to a non-registered letter
+
+
+
+
