@@ -19,7 +19,6 @@ To add a user to a group type "usermod -aG sudo anotherGroup"
 
 
 
-
 You can login through ssh-keys by genrating ssh-keys "ssh-keygen" and then you have to copy the public key to the server machine to 
 .ssh/authintication_keys through "ssh-copy-id username@ipaddress". after you can disable root login and password authintication in /etc/ssh/sshd_config
 
@@ -30,4 +29,12 @@ Use 2> to redirect standerd Error to a file and Use < to redirect Sinput to some
 Piping: Take one program output and give it another program input Using the simple | 
 
 Note: You can use the logical && operator to run 2 programes if the first prog is true, exp: prog && prog2
+
+Note: To Pause the current program type "Ctrl + s" and press any key to resume
+
+
+
+Link To Files: To link to a file use the "ln file_to_link new_file_Linking" command.
+Linking: is just a file pointers to the actuall data.
+
 
