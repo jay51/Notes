@@ -34,7 +34,8 @@ Note: To Pause the current program type "Ctrl + s" and press any key to resume
 
 
 
-Link To Files: To link to a file use the "ln file_to_link new_file_Linking" command.
-Linking: is just a file pointers to the actuall data.
+Link To Files: To link to a file use the "ln file_to_link new_file_Linking" command to create Hardlink to the data itself.
+Linking: is just a file pointers to the actuall data or we could create a simplyc link 
+with flage "-s" that points to the file that pints to the data.
 
 

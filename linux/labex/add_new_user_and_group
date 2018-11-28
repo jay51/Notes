@@ -1,0 +1,11 @@
+Create A user with:
+Username：jack
+Home directory：/home/jack
+User jack uses zsh by default.
+User jack belongs to labex user group as well as dev user group.
+
+
+1. sudo useradd -m jack // flage -m To create home dir for user,"adduser" will give you more options.
+2. sudo usermod -s /bin/zsh jack // -s flage for shell.
+3. sudo groupadd group_name // Create The group if it dosn't exist.
+4. sudo usermod	-aG dev,labex jack// -a for add -g for group

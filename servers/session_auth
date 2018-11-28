@@ -1,0 +1,7 @@
+To implement session auth on the server you need to Know the following:
+
+1. Create a singup route and store use data & encyript password.
+2. When the user SignUp or SignIn check if user exist and passwords matches. 
+3. Create a session with the user's unique id and send it back to user.
+4. When user navigate to a protected route, user will send the session back with every request to same domain.
+5. Check for the session, If session is valid then find SignedIn user through his session Id and display data.
