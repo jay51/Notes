@@ -39,3 +39,8 @@ Linking: is just a file pointers to the actuall data or we could create a simply
 with flage "-s" that points to the file that pints to the data.
 
 
+Note: To check the status of a service runing on your machine type "service <name_of_service> status"
+Note: To stop a service from runing type "service docker stop" or To restart type "service docker restart"
+Note: To show all runing and stoped services on your machine type "service --status-all"
+
+

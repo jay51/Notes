@@ -6,6 +6,15 @@ User jack belongs to labex user group as well as dev user group.
 
 
 1. sudo useradd -m jack // flage -m To create home dir for user,"adduser" will give you more options.
-2. sudo usermod -s /bin/zsh jack // -s flage for shell.
-3. sudo groupadd group_name // Create The group if it dosn't exist.
-4. sudo usermod	-aG dev,labex jack// -a for add -g for group
+2. sudo	passwd jack // incase you don't get password prompt, use this command to set user password.
+3. sudo usermod -s /bin/zsh jack // -s flage for shell.
+4. sudo groupadd group_name // Create The group if it dosn't exist.
+5. sudo usermod	-aG dev,labex jack// -a for add -g for group
+
+Note: If there is no sudo group type "apt install sudo" to install the sudo group.
+Then type "adduser jack sudo", this will install sudo group and add jack to sudo group. 
+
+Note: you can find all groups in "cat /etc/group" and delete a user by typing "sudo deluser jack --remove-home".
+Or with "userdel jack"
+
+

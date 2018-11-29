@@ -1,5 +1,4 @@
 
-
 docker pull image // to download images
 
 docker run -it  --publish 80:80 // docker run will start the container and -it flage will ssh into 
@@ -12,6 +11,9 @@ docker images // show images
 docker rm containerID// to remove containers
 docker image rm imageID// to remove images
 
+Note: Normally docker containers presists after it has existed to allow you to run it again. However, 
+sometimes you want to run  a container and delete it immediately after it exists. To do so, add "--rm" to your command
+docker run --rm my_docker
 
 docker container run -d -p 80:80 --name myngxcontainer nginx// will run nginx image and -d for deattach to run in background 
 and -p for publish and the port and --name to give you container a name and then the image to run
