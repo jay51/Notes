@@ -1,0 +1,42 @@
+Chapter:2ce
+
+
+Kernal: The portion of OS that interacts directly with the computer hardware.
+Shell: The portion of OS that interfaces with the applecations and the user.
+IOS: Interntwork operating system 
+
+Methods To Configure Switch:fa
+- Consle: Pyhsica management port (for device maintenance only).
+- Secure Shell(SSH): Remotely establishing a secure CLI connection thtough virtual interface.
+- Telent: Insecure remote access.
+
+Line Configuration mode: Used to Config console, SSH, Telnet, or AUX access.
+Interface Configuration mode: Used to config a switch port or router network interface.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

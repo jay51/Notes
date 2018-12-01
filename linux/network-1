@@ -1,0 +1,36 @@
+Chapter:1
+
+Note: Host uses MAC adderess to communicate inside the network,And IP address to
+communicate over a remote network.
+
+Servers: Computers with software that enable them to provide infromation, like email or web pages
+to other end devices on the network.
+
+Clinets: Computer with software installed that enable them to request and display the information obtained from server.
+
+Peer-to-Peer: when computer function as clinets and servers on the same network.
+
+
+Converged Networks: Networks that are capable of delivering data, voice and video between devices over the same network.
+
+intranet: is a LAN or WAN network that's private for an orginization members only.
+OSI Model: Well-defined Model for communication systems. OSI Model is a view of how one system sould
+communicate with other systems using various Protocols.
+
+Protocals: A set of defined rules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
