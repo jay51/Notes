@@ -1,0 +1,29 @@
+Chapter: 6
+
+Note: IP headers are added in the network layer(packets) and it include the source and destnation IP.
+Note: A host on a network can send packets to itself(loopback) local host(host on same network and remote host.
+
+Note: Switches uses MAC addr but have an IP addr for remote config.
+Note: Routers uses IP addrs.
+
+Classfull IP addresing:
+--First octect start with one of the following:
+- A 1-126   255.0.0.0 /8
+- B 128-191 1.1.0.0   /16
+- C 192-223 1.1.1.0   /24
+- D 224-239 Multicasting
+- E 240-255 Experimental
+
+SubNet: To define network portin/address and host portin/addresses.
+ARP: (Address Resalution Protocol) Works inside a network/PCs/R/S to get a device MAC address and store it in an ARP table.
+Note: Default Gateway is generally the router interface address (gigbit 0/0)
+
+
+
+
+
+
+
+
+
+
