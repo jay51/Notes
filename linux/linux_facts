@@ -1,0 +1,22 @@
+Note: settings files should be in "/etc" and executable files should be in "/bin" or "/sbin".
+Note: Shared Data should be placed inside "/usr/share".
+Note: You can create hidden files/dir by prepending the name of the file/dir with a ".".
+Note: When a process is created, it inherite s most of the env settings of its parent process like
+the SHELL and a shell program/command.
+
+Note: env variables are temp vars in the current shell. Add your env vars to .bashrc or .profile to
+make it permanent.
+
+Note: To make an executable run from anywhere in your file sys, you need to add it to "bin" or
+a hard link to the executable. You could also just add the dir of executable to path likeso 
+"$path=$path:/pathto/executable"
+
+
+
+
+
+
+
+
+
+
