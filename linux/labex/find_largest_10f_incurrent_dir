@@ -1,0 +1,7 @@
+du: is to display the disk usage
+
+Seloution:
+du -ha -d 1 ./ | sort -n -r
+
+du -ha -d 1 ./ => display file's size, -h for houman readable, -a for all, -d for depth
+sort -n -r => sort files, -n in numeric sorting, -r reverse sort
