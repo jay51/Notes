@@ -11,7 +11,7 @@ Note: To make an executable run from anywhere in your file sys, you need to add 
 a hard link to the executable. You could also just add the dir of executable to path likeso 
 "$path=$path:/pathto/executable"
 
-
+Note: To copy files to external server use scp(secure copy)
 
 
 
