@@ -1,0 +1,39 @@
+1-24-19
+
+nromal users: $
+root: # and uid is 0
+
+To make a root user:
+- adduser with `adduser`
+- edit `etc/sudoers`
+- add your self to root section
+
+Note: bin is for binary files and sbin for binaries for sudos
+Note: users home dir will be in /home/<user_name>
+
+
+1.Regular files
+2.Directory files
+3.Special files(This category is having 5 sub types in it.)
+ - Block file(b)
+ - Character device file(c)
+ - Named pipe file or just a pipe file(p)
+ - Symbolic link file(l)
+ - Socket file(s)
+
+
+Environment Configutation Files:
+ when a user logs in, an environment is created for that user automatically. 
+ This happens based on four different files where some scripts code can be
+ specified and varibales can be defined for use by user.
+ -/etc/profile: This is the generic file that is processed by all users upon login.
+ -/etc/bashrc: This file is processed when subshells are started.
+ -~/.bash_profile: In this file, user-specific login shell variables can be defined.
+ -~/.bashrc: In this user-specific file, subshell variabless can be defined.
+
+
+Note: Bash offers an option to include messages in the /etc/motd and the /etc/issue files.
+Messages in /etc/motd display after a user has successfully logged in to a shell. And files in
+/etc/issue display before user logs in.
+
+

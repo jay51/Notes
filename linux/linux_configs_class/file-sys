@@ -1,0 +1,25 @@
+1-29-19
+
+/bin: is where all your bainery programes, Mostly written in C
+/dev: is where all your devices live.
+/etc: is where all your config files are.
+/mnt: is where your mounted files lives.
+/root: root user home dir.
+/sbin: system  bainery. Only super user allowed to run.
+/tmp: is where temp files live. Example: when editing file that file will be loaded from desk to memory to tmp,
+and when done editing, it will be written to desk.
+/usr: is where user coustome programes can live.(written by you)
+/var: is where data live such as logs files.
+(.): is the name of your current dir.
+(..): is the parent dir of your current dir.
+/proc: is where all of the details about the sys.
+/etc/shells: is where where you store all your shells
+/etc/passwd: stores essential info, which is required during login such as user account info.
+
+
+username  password  uid(user):gid(group)    comments   homedir   shell
+root        *           0(root):0           Charlie&   /root     /bin/bash
+
+Note: by default when booting os, you get 3 files: 0/sIn(keyboard), 1/sOut(moniter), 2/sError(moniter)
+scp: secure copy => scp user@ip:/location_of_file ./  (copy a file from server to current dir)
+
