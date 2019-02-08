@@ -37,3 +37,13 @@ Messages in /etc/motd display after a user has successfully logged in to a shell
 /etc/issue display before user logs in.
 
 
+
+
+Note: dmesg will tell you everything about the sys (everything)
+
+Note:sd for drives sd1 and sd2 for partitions
+Note: mkfs is a command to make file sys
+Note: mount will mount your external device to usually to /mnt example (mount /dev/sda1 /mnt)
+
+
+
