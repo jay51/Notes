@@ -13,8 +13,16 @@ a hard link to the executable. You could also just add the dir of executable to 
 
 Note: To copy files to external server use scp(secure copy)
 
+Note: if you ever forget your password and can't login to the sys, you could boot into GRUB(is a boot loader, the first software 
+that runs at a system boot and load the Kernel) and select single user mode (add init=/bin/bash/ to kernel line to tell the kernel to start a shell) 
+then open a shell in single user-mode and mount the sys root dir '/'
+becuase single mode put you in read only mode then you got root (mount -o remount,rw /) this remount the `/` for read and write.
 
+Note: Normally linux boots up in multi-user mode which mean that more than one user can be logged in to your computer at the same time. 
+In single-user mode only root user are allowed to log in. also referred to as maintenance mode and runlevel 1,
+is a mode of operation of a computer running Linux or another Unix-like os that provides as few services as possible and only minimal functionality.
 
+Note: There'are also other modes such as rescue mode and emergency mode.
 
 
 
