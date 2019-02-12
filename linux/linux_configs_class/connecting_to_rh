@@ -1,0 +1,28 @@
+chapter:5
+
+
+
+Note: Every terminal used in a linux environment has a device file associated with it. 
+Terminals that are started in a non-graphical environment are typically referred to through the devices /dev/tty1 - /dev/tty6
+
+Note: For terminal windows that are started from a graphical env, pseudo terminals are started.
+These pseudo terminals are referred to using numbers in /dev/pts for example /dev/pts/1 & /dev/pts/2.
+
+Note: When logged into a terminal type "w" to show logged in users. "/var/log/auth.log" will also have all info about logged users.
+
+
+Note: in case of emergency only use "echo b > /proc/sysrq-trigger" to reset the machine.
+
+
+Note To access a server using ssh, that server needs to have the sshd service running on port 22 
+and it should not be blocked by firewall. give ssh -v flag to show you helpful info when sshing.
+
+
+Note: to start graphical app through ssh you need 2 things. 1 an X server running on the client pc. 
+X server is the software that creates the screens. 2 The remote host must be allowed to display screens on the local computer
+by adding -X to ssh command.
+
+
+
+
+
