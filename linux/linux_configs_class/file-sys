@@ -23,3 +23,16 @@ root        *           0(root):0           Charlie&   /root     /bin/bash
 Note: by default when booting os, you get 3 files: 0/sIn(keyboard), 1/sOut(moniter), 2/sError(moniter)
 scp: secure copy => scp user@ip:/location_of_file ./  (copy a file from server to current dir)
 
+Note:
+You can create 4 primary partitions or you could make 3 primary partitions and 
+use the last partition as an Extended partition to make sub extended partitions.
+
+Note:
+Use fdisk to create partitions and mkfs to format partitions and make a file system.
+
+
+
+
+
+
+
