@@ -1,7 +1,6 @@
 chapter:5
 
 
-
 Note: Every terminal used in a linux environment has a device file associated with it. 
 Terminals that are started in a non-graphical environment are typically referred to through the devices /dev/tty1 - /dev/tty6
 
@@ -10,9 +9,7 @@ These pseudo terminals are referred to using numbers in /dev/pts for example /de
 
 Note: When logged into a terminal type "w" to show logged in users. "/var/log/auth.log" will also have all info about logged users.
 
-
 Note: in case of emergency only use "echo b > /proc/sysrq-trigger" to reset the machine.
-
 
 Note To access a server using ssh, that server needs to have the sshd service running on port 22 
 and it should not be blocked by firewall. give ssh -v flag to show you helpful info when sshing.
@@ -21,6 +18,34 @@ and it should not be blocked by firewall. give ssh -v flag to show you helpful i
 Note: to start graphical app through ssh you need 2 things. 1 an X server running on the client pc. 
 X server is the software that creates the screens. 2 The remote host must be allowed to display screens on the local computer
 by adding -X to ssh command.
+
+Note: "scp" secure copy runs over sshd service. so, if you have ssh enabled, you should be able to scp files to remote machine.
+
+
+Making public and private keys for ssh:
+1. Use ssh-keygen to generate keys 
+2. When asked to enter a passphrase hit enter for skipping
+3. When asked for location of keys hit enter to keep default
+4. Use ssh-copy-id to copy public key over to remote server
+5. Next time you login, use ssh <server>
+
+
+
+Note: The screen command let you start multiple terminal sessions for what ever reason and 
+keep them on for as long as you like even if you detach from session and shutdown your computer.
+To install screen type "yum install screen".
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

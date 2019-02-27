@@ -1,0 +1,34 @@
+Chapter: 6
+Feb 26 2019
+
+On a Linux system, a wide variety of processes are normally being used. 
+These processes need access to specific resources on the Linux system. 
+To determine how these resources can be accessed, a difference is made between 
+processes that run in kernel mode and processes that run without full permissions to the operating system. 
+In the latter case user accounts are needed.
+
+
+On Linux, there are two ways to look at system security. There are privileged users, and there are unprivileged users. 
+The default privileged user is root. This user account has full access to everything on a Linux server and 
+is allowed to work in system space without restrictions. The root user account is meant to perform system administration tasks and 
+should be used for that only. For all other tasks, an unprivi-leged user account should be used.
+
+ Note: When you log in as root in a graphical environment, all tasks that are executed are running as root as well.
+
+
+su: Opens a subshell as a different user, with the advantage that only in the subshell commands are executed as root.
+
+
+
+PolicyKit: Allows you to set up graphical utilities to run with administrative privileges.
+
+Note: when you login as another user with "su" environment settings for that user account have not been set. 
+If you need complete access to the entire environment of the tar-get user account, you can use "su -" to start a login shell.
+
+
+
+
+
+
+
+
