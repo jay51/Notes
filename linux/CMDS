@@ -43,4 +43,5 @@ Note: To check the status of a service runing on your machine type "service <nam
 Note: To stop a service from runing type "service docker stop" or To restart type "service docker restart"
 Note: To show all runing and stoped services on your machine type "service --status-all"
 
+Note: To display your installed packages type "dpkg --get-selections"
 
