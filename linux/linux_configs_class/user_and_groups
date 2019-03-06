@@ -26,9 +26,15 @@ Note: when you login as another user with "su" environment settings for that use
 If you need complete access to the entire environment of the tar-get user account, you can use "su -" to start a login shell.
 
 
+Note: The /sbin/nologin command is a specific command that silently denies access
+to users (to ensure that if by accident an intruder logs in to the server he can-
+not get any shell access). You can create a file with the name /etc/nologin.
+txt that contains a message that will be displayed when a user who has /sbin/
+nologin as its shell tries to log in.
 
 
 
-
+Note: the command chage is used to update date before password must be changed.
+Note: Use userdel -r to remove a user, including the complete user environment. 
 
 
