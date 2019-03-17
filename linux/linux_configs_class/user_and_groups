@@ -38,3 +38,20 @@ Note: the command chage is used to update date before password must be changed.
 Note: Use userdel -r to remove a user, including the complete user environment. 
 
 
+Note: MOTD_FILE: Defines the file that is used as “message of the day” file. 
+In this file, you can include messages to be displayed after the user 
+has success-fully logged in to the server.
+
+
+
+When a user enters his login name and password, these are normally checked on the
+local server. If in your environment many servers are used, this approach is not the
+most convenient, and you might benefit from a centralized service that helps you
+managing users and groups. To provide such centralized authentication services,
+LDAP is a common solution.
+
+
+
+
+
+

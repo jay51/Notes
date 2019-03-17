@@ -1,0 +1,50 @@
+
+Note: every file and every directory has two owners: a user and a group owner
+the user who creates the file becomes the user owner,
+and the primary group of that user becomes the group owner.
+
+Note: find / -user jay => to look for all files for given user.
+Note: find / -group jay => to look for all files for given group.
+
+
+Note: if you make a dir in /etc/skel/ this dir will show up on each newly 
+created user home dir.
+
+r: on a file means user can see inside file, on dir means user can see inside dir
+w: on a file means user can write to file, on dir means user can make files in dir
+x: on a file means user can run file, on dir Not sure yet
+
+
+Note: SUID permission gives a user with no root prv a root premission to execuate a file 
+that requires root prv such as the usr/bin/passwd.
+The second special permission is set group ID (SGID). This permission has two effects. 
+If applied on an executable file, it gives the user who executes the file the
+permissions of the group owner of that file. So, SGID can accomplish more or less
+the same thing that does SUID. For this purpose, however, SGID is hardly used.
+As is the case for the SUID permission, SGID is applied to some system files as a
+default setting.
+
+When applied to a directory, SGID may be useful, because you can use it to set
+default group ownership on files and subdirectories created in that directory. By
+default, when a user creates a file, his effective primary group is set as the group
+owner for that file. That is not always very useful, especially because on Red Hat
+users have their primary group set to a group with the same name as the user, and
+of which the user is the only member. So by default, files that a user creates will be
+group shared with nobody else.
+
+The third of the special permissions is sticky bit. This permission is useful to protect
+files against accidental deletion in an environment where multiple users have write
+permissions in the same directory. If sticky bit is applied, a user may delete a file
+only if he is the user owner of the file or of the directory that contains the file. It is
+for that reason applied as a default permission to the /tmp directory, and it can be
+useful on shared group directories as well.
+
+
+
+
+
+Note: For better understanding refer to chapter 7
+
+
+
+
