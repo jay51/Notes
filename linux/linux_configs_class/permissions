@@ -10,13 +10,19 @@ Note: find / -group jay => to look for all files for given group.
 Note: if you make a dir in /etc/skel/ this dir will show up on each newly 
 created user home dir.
 
-r: on a file means user can see inside file, on dir means user can see inside dir
+r: on a file means user can see inside file, on dir means user can see inside dir but can't get inside 
 w: on a file means user can write to file, on dir means user can make files in dir
-x: on a file means user can run file, on dir Not sure yet
+x: on a file means user can run file, on dir means user can get inside dir and execute scripts Not sure yet
 
+Note: to change permissions use this syntax chmod g=rwx,o=r dir/file, 
+because g+rwx may conflict with SGID Permissions same for u+rwx conflict with SUID
+
+
+Note: For better understanding refer to chapter 7
 
 Note: SUID permission gives a user with no root prv a root premission to execuate a file 
 that requires root prv such as the usr/bin/passwd.
+
 The second special permission is set group ID (SGID). This permission has two effects. 
 If applied on an executable file, it gives the user who executes the file the
 permissions of the group owner of that file. So, SGID can accomplish more or less
@@ -39,11 +45,6 @@ only if he is the user owner of the file or of the directory that contains the f
 for that reason applied as a default permission to the /tmp directory, and it can be
 useful on shared group directories as well.
 
-
-
-
-
-Note: For better understanding refer to chapter 7
 
 
 
