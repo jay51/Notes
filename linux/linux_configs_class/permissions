@@ -49,3 +49,28 @@ useful on shared group directories as well.
 
 
 
+SUID  4  u+s   user executes file with permissions of file owner. No meaning on dir
+
+SGID  2  g+s   user executes file with permissions of group owner. Files and dirs created in marked dir get the same group owner 
+
+sticky bit  1  +t   no meaning on files.  on dir prevents users from deleting files from other users
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
