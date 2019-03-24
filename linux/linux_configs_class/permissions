@@ -55,7 +55,28 @@ SGID  2  g+s   user executes file with permissions of group owner. Files and dir
 
 sticky bit  1  +t   no meaning on files.  on dir prevents users from deleting files from other users
 
+----------------------- ACLs ------------------
 
+Access control lists: allow for advance permision settings
+
+things discussed in the previous section add useful 
+functionality to the way Linux works with permissions, 
+it does not allow you to give permissions to more than one user
+or one group on the same file. Access
+control lists do offer this feature.
+
+
+
+You can also create a backup of ACLs using getfacl , which can
+be restored using the setfacl command. 
+To create the backup, use getfacl -R /directory > file.acls .
+To restore setting from backup file,
+use setfacl --restore=file.acl.
+
+
+You have probably noticed that when creating a new file, 
+some default permissions are set. 
+These permissions are determined by the umask setting
 
 
 
