@@ -1,0 +1,22 @@
+
+Side notes:
+what is a buffer?
+http://www.linfo.org/buffer.html
+A buffer, also called buffer memory, is a portion of a computer's memory that is set aside as a temporary holding place for data 
+that is being sent to or received from an external device, such as a hard disk drive (HDD), keyboard or printer. 
+A buffer in a computer system is usually located between two devices that 
+have different speeds for handling data or used when there is a difference in the timing of events.
+
+Most text editors store the file being written or edited in a buffer.
+The text is transferred to the HDD when it is saved, i.e., data from the buffer is copied over the original file on the HDD, 
+thereby replacing it. Because changes are initially stored in a buffer, 
+all of them will be lost if the computer crashes during an editing session. 
+Thus, it is a good idea to frequently save files that are being worked on. 
+
+When a command is issued to print a document, 
+the operating system copies the document to a printer buffer from which the printer can use it at its own pace.
+This frees the computer to perform other tasks while the printer is running in the background.
+
+Note: most of the time we don't interact with the physical device but
+we read or write to a buffer and when buffer is full or when we're done writing, data gets written to the device. 
+A device is represented as a file by the operating system that we can read and write to such as the keyboard or display.
