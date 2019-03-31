@@ -1,0 +1,22 @@
+Chapter:6
+Configure Networking
+
+
+Note: To setup networking on a server, your server needs 
+a unique address on the netowrk. 
+
+
+IP addresses are the addresses that allow nodes to communicate to any other
+ node on the Internet. They are not the only addresses in use though. 
+Each network card also has an address, which is known as the MAC address.
+MAC addresses are for use on the local network (that is, 
+the local cable or local WLAN, just up to the first router that is encountered)
+; they cannot be used for communications between nodes that are on 
+different networks. They are important, though,because MAC addresses help
+computers find the specific network card that an IP address belongs to.
+
+
+
+
+
+
