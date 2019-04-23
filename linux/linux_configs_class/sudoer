@@ -43,7 +43,7 @@ Note: dmesg will tell you everything about the sys (everything)
 
 Note:sd for drives sd1 and sd2 for partitions
 Note: mkfs is a command to make file sys
-Note: mount will mount your external device to usually to /mnt example (mount /dev/sda1 /mnt)
+Note: mount will mount your external device to usually /mnt example (mount /dev/sda1 /mnt)
 
 
 

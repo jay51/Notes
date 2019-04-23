@@ -51,6 +51,7 @@ managing users and groups. To provide such centralized authentication services,
 LDAP is a common solution.
 
 
+Note: To create certine dir for each newlly created user, add the dir to etc/skel
 
 
 
