@@ -1,0 +1,8 @@
+
+
+
+Making keys for encryption: 
+we make keys with gpg2 --gen-key, then we send the public key to the target machine 
+to import that key to the list of keys on that machine (gpg2 --import key). then target machine send its public key back to you.
+Then, you encrypt files and sign them with target public key (gpg2 --encrypt -recepient recepient_email <file>) and send it to target machine.
+target machine decrypt with private key (gpg --decrypt <file>)
