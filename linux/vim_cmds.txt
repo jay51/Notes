@@ -12,3 +12,5 @@ To navigate to a file (:e filename)
 To save a file (saveas or save path/filename)
 To delet a num of lines #dd (3dd)
 To past a somthing num of times #p (3p)
+To open 2 windows in vertical split type "vi -O file1 file2" type lowercase 'o' for herzontal split
+To diff 2 files, split open the files then type "diffthis" on both files.
