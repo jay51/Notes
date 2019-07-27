@@ -14,3 +14,4 @@ To delet a num of lines #dd (3dd)
 To past a somthing num of times #p (3p)
 To open 2 windows in vertical split type "vi -O file1 file2" type lowercase 'o' for herzontal split
 To diff 2 files, split open the files then type "diffthis" on both files.
+To run commands on a file type " :%! <command>  => :%! cut -d . -f1 or :1,10! cut -d . -f1 "
