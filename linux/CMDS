@@ -46,3 +46,5 @@ Note: To show all runing and stoped services on your machine type "service --sta
 Note: To display your installed packages type "dpkg --get-selections"
 Note: To burn iso image to a USB => dd bs=4M if='/home/jay/Downloads/vms/manjaro-xfce-18.0.4-stable-x86_64.iso' of=/dev/sdb status=progress
 Note: type $0 to rerun your shell, sometimes you need this.
+
+To view system logs type journalctl.
