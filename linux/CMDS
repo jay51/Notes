@@ -48,3 +48,7 @@ Note: To burn iso image to a USB => dd bs=4M if='/home/jay/Downloads/vms/manjaro
 Note: type $0 to rerun your shell, sometimes you need this.
 
 To view system logs type journalctl.
+
+# ssh port forwarding
+ssh -L 8000:localhost:8000 192.168.122.202 #this will forward port 8000 on 192.168.122.202 to port 8000 on localhost
+
