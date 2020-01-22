@@ -24,6 +24,10 @@ is a mode of operation of a computer running Linux or another Unix-like os that 
 
 Note: There'are also other modes such as rescue mode and emergency mode.
 
+Note: The `export` command is used to export environment variables to sub/child process
+Note: The `source` command is used to run a script in the current shell.
+By default when you mark a script as executable and run it, it runs in a sub shell.
+
 
 
 
